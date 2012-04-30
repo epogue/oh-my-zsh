@@ -32,3 +32,5 @@ alias pgstop="pg_ctl -D /usr/local/var/postgres -l logfile stop"
 
 export PATH="$HOME/bin:/usr/local/bin:$PATH"
 export NODE_PATH="/usr/local/lib/node:$NODE_PATH"
+
+export CDPATH=".:$HOME:$HOME/Dropbox:$HOME/Dropbox/Projects"
